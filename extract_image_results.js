@@ -1,6 +1,6 @@
 (async function(){
-    artoo.injectScript("//medialab.github.io/SearchEnginesBookmarklet/FileSaver.min.js", function() {
-      artoo.injectScript("//medialab.github.io/SearchEnginesBookmarklet/dropdown.js", function() {
+    artoo.injectScript("//jwyg.github.io/SearchEnginesBookmarklet/FileSaver.min.js", function() {
+      artoo.injectScript("//jwyg.github.io/SearchEnginesBookmarklet/dropdown.js", function() {
       //  artoo.injectScript("//localhost:4443/dropdown.js", function() {
 
         var loc = window.location,
@@ -142,7 +142,7 @@
           '<style>' + styles.join('\n') + '</style>' +
           '<div id="BMoverlay">' +
             '<h1>SearchEnginesBookmarklets</h1>' +
-            '<img id="BMlogo" src="https://medialab.github.io/SearchEnginesBookmarklet/images/duckduckgo-google-bing-baidu-256.png" alt="SEB logo" />' +
+            '<img id="BMlogo" src="https://jwyg.github.io/SearchEnginesBookmarklet/images/duckduckgo-google-bing-baidu-256.png" alt="SEB logo" />' +
             '<h2>Extract ' + search + '</h2>' +
             '<p>Search for «&nbsp;<b id="BMquery">' + decodeURIComponent(query.replace(/\+/g, '%20')) + '</b>&nbsp;»</p>' +
             '<p>How many results to collect at most?' +

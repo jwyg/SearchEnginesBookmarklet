@@ -41,7 +41,7 @@
     '<style>' + styles.join('\n') + '</style>' +
     '<div id="BMoverlay">' +
       '<h1>SearchEnginesBookmarklets</h1>' +
-      '<img id="BMlogo" src="https://medialab.github.io/SearchEnginesBookmarklet/images/duckduckgo-google-bing-baidu-256.png" alt="SEB logo" />' +
+      '<img id="BMlogo" src="https://jwyg.github.io/SearchEnginesBookmarklet/images/duckduckgo-google-bing-baidu-256.png" alt="SEB logo" />' +
       '<h2>Access ' + search + ' with more results</h2>' +
       '<p>How many results per page?' +
         '<select class="BMresults"></select>' +
