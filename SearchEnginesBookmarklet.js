@@ -31,7 +31,7 @@
 
     var a = document.createElement("script");
     console.log("Loading artoo.js...");
-    a.src = "//jwyg.github.io/artoo/public/dist/artoo-latest.min.js";
+    a.src = "//medialab.github.io/artoo/public/dist/artoo-latest.min.js";
     a.type = "text/javascript";
     a.id = "artoo_injected_script";
     if (script) a.setAttribute("settings", JSON.stringify({scriptUrl: scriptsDomain + script}));
